@@ -1,0 +1,152 @@
+{
+  "capsules": [
+    {
+      "id": "1769808594166-vrwwb6ia2",
+      "year": 2003,
+      "title": "Hello World!",
+      "description": "Happy BirthYear to me :)",
+      "mediaUrl": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyb2x3cDBleGJ5bmI3ZGFjbGkyaXcycDkyMTh0bWdoaWl5ZzZoNndiYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Mjcv3Dg6irEG6Bb9In/200w.gif",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "past",
+      "createdAt": 1769808594166,
+      "updatedAt": 1769808594166,
+      "colorSeed": 0.9434243600818852
+    },
+    {
+      "id": "1769810862865-4xlu9rrms",
+      "year": 2011,
+      "title": "World Cup",
+      "description": "I significantly remember India winning Cricket world cup being a big deal",
+      "mediaUrl": "https://www.hdwallpapers.in/thumbs/2011/team_india_2011_world_cup-t2.jpg",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "past",
+      "createdAt": 1769810862865,
+      "updatedAt": 1769810862865,
+      "colorSeed": 0.9398819962937384
+    },
+    {
+      "id": "1769809923436-bxqp3b19e",
+      "year": 2015,
+      "title": "Boarding school",
+      "description": "Moved to a new city to join boarding school",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Prakasham_Barriage%2C_Vijayawada.jpg/330px-Prakasham_Barriage%2C_Vijayawada.jpg",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "past",
+      "createdAt": 1769809923436,
+      "updatedAt": 1769809923436,
+      "colorSeed": 0.5699064019411093
+    },
+    {
+      "id": "1769810432909-8dk22eujf",
+      "year": 2018,
+      "title": "Finished Secondary schooling",
+      "description": "Cleared board exams with 10/10 GPA",
+      "mediaUrl": "https://marketplace.canva.com/Yb92Q/MAG3qJYb92Q/1/s2/canva-sunlit-exterior-of-classic-red-brick-building-MAG3qJYb92Q.jpg",
+      "mediaType": "image",
+      "milestone": true,
+      "type": "past",
+      "createdAt": 1769810432909,
+      "updatedAt": 1769812278867,
+      "colorSeed": 0.3035206873965305
+    },
+    {
+      "id": "1769810981016-bbmbcvdq1",
+      "year": 2020,
+      "title": "COVID and a lot of binge watching",
+      "description": "Covid happened right when I graduated from high shool and was bout to start college.",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/250px-Game_of_Thrones_title_card.jpg",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "past",
+      "createdAt": 1769810981016,
+      "updatedAt": 1769810981016,
+      "colorSeed": 0.8721145699659592
+    },
+    {
+      "id": "1769809372815-mhaifjnc3",
+      "year": 2021,
+      "title": "India → USA",
+      "description": "Came to USA at 17 for college.",
+      "mediaUrl": "https://photos.msu.edu/img/s/v-10/p1971486036-2.jpg",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "past",
+      "createdAt": 1769809372815,
+      "updatedAt": 1769809543545,
+      "colorSeed": 0.21992970784221177
+    },
+    {
+      "id": "1769810370622-9vou4f0ev",
+      "year": 2022,
+      "title": "First job",
+      "description": "Started working as a Teaching assistant for Physics classes at college",
+      "mediaUrl": "https://hcommons.org/app/uploads/sites/1004102/2024/12/IMG_0866e-min-1024x683.jpeg",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "past",
+      "createdAt": 1769810370622,
+      "updatedAt": 1769812393076,
+      "colorSeed": 0.9263503943632335
+    },
+    {
+      "id": "1769811577977-ln5ruv5o2",
+      "year": 2023,
+      "title": "College....",
+      "description": "Won a hackathon and took a lot of classes in two semesters.",
+      "mediaUrl": "https://cdn.jsdelivr.net/gh/sriramsme/public@main/images/hackathon.jpg",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "past",
+      "createdAt": 1769811577977,
+      "updatedAt": 1769815230244,
+      "colorSeed": 0.5751120954818935
+    },
+    {
+      "id": "1769808751484-1z3jm43z5",
+      "year": 2024,
+      "title": "Graduated",
+      "description": "Got my Bachelor's degree at Michigan State University!!",
+      "mediaUrl": "https://cdn.jsdelivr.net/gh/sriramsme/public@main/images/graduation.jpg",
+      "mediaType": "image",
+      "milestone": true,
+      "type": "past",
+      "createdAt": 1769808751484,
+      "updatedAt": 1769815215138,
+      "colorSeed": 0.2358248576318014
+    },
+    {
+      "id": "1769812530884-qy6jy21j7",
+      "year": 2025,
+      "title": "Bulilt a bunch of stuff",
+      "description": "Volunteered at @OneCommunityGlobal and built a bunch of applications - @trulyKin, @aiso, @Picko.",
+      "mediaUrl": "https://cdn.jsdelivr.net/gh/sriramsme/public@main/images/aiso.png",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "past",
+      "createdAt": 1769812530884,
+      "updatedAt": 1769815222283,
+      "colorSeed": 0.06435551498853365
+    },
+    {
+      "id": "1769810463541-9rha526wm",
+      "year": 2030,
+      "title": "Hopefully....",
+      "description": "I’m financially independent, doing what I love, and to have already made cool stuff that helped people. 🤞🤞",
+      "mediaUrl": "https://media.tenor.com/XFZllZ8cVP4AAAAM/fingers-crossed-fry.gif",
+      "mediaType": "image",
+      "milestone": false,
+      "type": "future",
+      "createdAt": 1769810463541,
+      "updatedAt": 1769814699804,
+      "colorSeed": 0.6019856121757435
+    }
+  ],
+  "metadata": {
+    "name": "Sriram",
+    "profilePic": "https://cdn.jsdelivr.net/gh/sriramsme/public@main/images/profile.jpeg",
+    "bio": ""
+  }
+}
