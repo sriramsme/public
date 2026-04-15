@@ -1,0 +1,129 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <!-- Arrow -->
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#888"></path>
+    </marker>
+
+    <!-- Subtle dashed line -->
+    <style>
+      .faint { opacity: 0.35; }
+      .label { font-family: monospace; fill: #aaa; font-size: 11px; }
+      .title { font-family: monospace; fill: #fff; font-size: 20px; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0b0b0c"></rect>
+
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" class="title">
+    OnlyAgents — Multi-Agent Runtime
+  </text>
+
+  <!-- ===== CHANNELS (VERY SUBTLE) ===== -->
+  <text x="600" y="90" text-anchor="middle" class="label faint">Channels</text>
+
+  <circle cx="420" cy="110" r="6" fill="#666"></circle>
+  <circle cx="600" cy="110" r="6" fill="#666"></circle>
+  <circle cx="780" cy="110" r="6" fill="#666"></circle>
+
+  <text x="420" y="130" text-anchor="middle" class="label faint">Discord</text>
+  <text x="600" y="130" text-anchor="middle" class="label faint">API</text>
+  <text x="780" y="130" text-anchor="middle" class="label faint">Telegram</text>
+
+  <!-- ===== EXECUTIVE ===== -->
+  <rect x="500" y="150" width="200" height="60" rx="10" fill="#1f1f2e" stroke="#7c7cff" stroke-width="2" filter="url(#glow)"></rect>
+  <text x="600" y="185" text-anchor="middle" fill="#fff" font-family="monospace">
+    Executive
+  </text>
+
+  <!-- Channel → Executive -->
+  <line x1="420" y1="115" x2="600" y2="150" stroke="#555" class="faint"></line>
+  <line x1="600" y1="115" x2="600" y2="150" stroke="#555" class="faint"></line>
+  <line x1="780" y1="115" x2="600" y2="150" stroke="#555" class="faint"></line>
+
+  <!-- ===== AGENTS ===== -->
+  <rect x="260" y="270" width="160" height="60" rx="10" fill="#1a1a26" stroke="#5a8cff"></rect>
+  <rect x="520" y="270" width="160" height="60" rx="10" fill="#1a1a26" stroke="#5a8cff"></rect>
+  <rect x="780" y="270" width="160" height="60" rx="10" fill="#1a1a26" stroke="#5a8cff"></rect>
+
+  <text x="340" y="305" text-anchor="middle" fill="#ccc" font-family="monospace">Prod</text>
+  <text x="600" y="305" text-anchor="middle" fill="#ccc" font-family="monospace">Research</text>
+  <text x="860" y="305" text-anchor="middle" fill="#ccc" font-family="monospace">General</text>
+
+  <!-- Exec → Agents -->
+  <line x1="600" y1="210" x2="340" y2="270" stroke="#777" marker-end="url(#arrow)"></line>
+  <line x1="600" y1="210" x2="600" y2="270" stroke="#777" marker-end="url(#arrow)"></line>
+  <line x1="600" y1="210" x2="860" y2="270" stroke="#777" marker-end="url(#arrow)"></line>
+
+  <!-- ===== KERNEL ===== -->
+  <rect x="450" y="370" width="300" height="70" rx="12" fill="#161622" stroke="#9a6bff" stroke-width="2" filter="url(#glow)"></rect>
+  <text x="600" y="410" text-anchor="middle" fill="#fff" font-family="monospace">
+    Kernel (Event Bus)
+  </text>
+
+  <!-- Agents → Kernel -->
+  <line x1="340" y1="330" x2="600" y2="370" stroke="#666" marker-end="url(#arrow)"></line>
+  <line x1="600" y1="330" x2="600" y2="370" stroke="#666" marker-end="url(#arrow)"></line>
+  <line x1="860" y1="330" x2="600" y2="370" stroke="#666" marker-end="url(#arrow)"></line>
+
+  <!-- ===== SKILLS / CONNECTORS (VERY FAINT) ===== -->
+  <text x="600" y="480" text-anchor="middle" class="label faint">Skills · Connectors</text>
+
+  <rect x="300" y="500" width="600" height="40" rx="10" fill="#111" stroke="#444" class="faint"></rect>
+
+  <text x="600" y="525" text-anchor="middle" class="label faint">
+    CLI · APIs · Local Data
+  </text>
+
+  <!-- Kernel ↔ Skills -->
+  <line x1="600" y1="440" x2="600" y2="500" stroke="#555" class="faint"></line>
+
+  <!-- Divider -->
+  <line x1="200" y1="560" x2="1000" y2="560" stroke="#222"></line>
+  <text x="600" y="520" text-anchor="middle" class="label">Memory Interface</text>
+
+  <!-- ===== MEMORY ===== -->
+<!-- Episodes -->
+  <rect x="200" y="550" width="200" height="80" rx="12" fill="#102a1f" stroke="#3cff9c" filter="url(#glow)"></rect>
+  <text x="300" y="585" fill="#9cffd0" font-size="14" text-anchor="middle" font-family="monospace">
+    Episodes
+  </text>
+  <text x="300" y="605" fill="#6bd8a8" font-size="11" text-anchor="middle" font-family="monospace">
+    semantic history
+  </text>
+
+  <!-- Nexus -->
+  <rect x="500" y="550" width="200" height="80" rx="12" fill="#102a1f" stroke="#3cff9c" filter="url(#glow)"></rect>
+  <text x="600" y="585" fill="#9cffd0" font-size="14" text-anchor="middle" font-family="monospace">
+    Nexus
+  </text>
+  <text x="600" y="605" fill="#6bd8a8" font-size="11" text-anchor="middle" font-family="monospace">
+    knowledge graph
+  </text>
+
+  <!-- Praxis -->
+  <rect x="800" y="550" width="200" height="80" rx="12" fill="#102a1f" stroke="#3cff9c" filter="url(#glow)"></rect>
+  <text x="900" y="585" fill="#9cffd0" font-size="14" text-anchor="middle" font-family="monospace">
+    Praxis
+  </text>
+  <text x="900" y="605" fill="#6bd8a8" font-size="11" text-anchor="middle" font-family="monospace">
+    behavior patterns
+  </text>
+  <!-- Kernel ↔ Memory -->
+  <line x1="600" y1="440" x2="300" y2="550" stroke="#aaa" stroke-width="1.2" marker-end="url(#arrow)"></line>
+  <line x1="600" y1="440" x2="600" y2="550" stroke="#aaa" stroke-width="1.2" marker-end="url(#arrow)"></line>
+  <line x1="600" y1="440" x2="900" y2="550" stroke="#aaa" stroke-width="1.2" marker-end="url(#arrow)"></line>
+
+</svg>
